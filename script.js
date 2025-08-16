@@ -92,10 +92,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add scroll event listener
     window.addEventListener('scroll', highlightNavigation);
 
-    // Contact form handling (if you add a form later)
-    function handleReservation() {
-        alert('Thank you for your interest! We will contact you shortly to confirm your reservation.');
-    }
+    // // Contact form handling (if you add a form later)
+    // function handleReservation() {
+    //     alert('Thank you for your interest! We will contact you shortly to confirm your reservation.');
+    // }
 
     // Add click handlers to reservation buttons
     const reservationButtons = document.querySelectorAll('.btn');
@@ -182,3 +182,4 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Hotel website loaded successfully!');
     console.log('Excel integration functions available in window.hotelFunctions');
 });
+
