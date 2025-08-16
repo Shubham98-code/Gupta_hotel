@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pre-Order Food Form</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -449,7 +450,7 @@
                 summaryContent.innerHTML = billHTML;
                 
                 // --- Send data to Google Apps Script ---
-                const scriptURL = "https://script.google.com/macros/s/AKfycbw8RN6D6lDe7ZfC5mtsnVX1orYYRP81sDCffeRocw9TzgpPyfL-jL_BTynfc27d0bme/exec";
+                const scriptURL = "https://script.google.com/macros/s/AKfycbxkSPD215Naq8RbqODEgzlgZRzGcJP5sxcLi2DC39RKBhBLTcaqZB4c8GKI9jdnC9cj/exec";
 
                 fetch(scriptURL, { method: 'POST', mode: 'no-cors', body: JSON.stringify(orderData) })
                 .then(response => {
